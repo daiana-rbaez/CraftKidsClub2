@@ -149,14 +149,15 @@ section {
   line-height: 0;
 }
 
-.back-to-top:hover {
-  background: #6776f4;
-  color: #fff;
-}
-
 .back-to-top.active {
   visibility: visible;
   opacity: 1;
+  background: #f7512a;
+}
+
+.back-to-top:hover {
+  background: #f76f4f;
+  color: #fff;
 }
 
 /*--------------------------------------------------------------
@@ -576,7 +577,7 @@ section {
 }
 
 .about {
-  background-color: #35BDC7;
+  background: url(../img/about-bg.png) top center no-repeat;
 }
 
 /*--------------------------------------------------------------
@@ -1196,7 +1197,7 @@ section {
 }
 
 .portfolio .portfolio-wrap .portfolio-links a i {
-  font-size: 24px;
+  font-size: 20px;
   line-height: 0;
 }
 
@@ -1372,7 +1373,7 @@ section {
 }
 
 .testimonials {
-  background-color: white;
+  background: url(../img/testimonial-bg.png) top center no-repeat;
 }
 
 @media (max-width: 1199px) {
@@ -1431,14 +1432,14 @@ section {
   top: 30px;
   opacity: 0;
   border-radius: 4px;
-  transition: 0.5s;
+  transition: 0s;
   background: rgba(255, 255, 255, 0.3);
   z-index: 2;
 }
 
 .team .member .social a {
   transition: color 0.3s;
-  color: rgba(1, 41, 112, 0.5);
+  color: rgba(247, 111, 79, 0.5);
   margin: 15px 12px;
   display: block;
   line-height: 0;
@@ -1446,7 +1447,7 @@ section {
 }
 
 .team .member .social a:hover {
-  color: rgba(1, 41, 112, 0.8);
+  color: rgba(247, 81, 42, 0.8);
 }
 
 .team .member .social i {
@@ -1461,14 +1462,16 @@ section {
   font-weight: 700;
   margin-bottom: 5px;
   font-size: 20px;
-  color: #012970;
+  color: #1e1b3f;
+  font-family: "Poppins", sans-serif;
 }
 
 .team .member .member-info span {
   display: block;
   font-size: 14px;
-  font-weight: 400;
-  color: #aaaaaa;
+  font-weight: 500;
+  color: #1f2823;
+  font-family: "Poppins", sans-serif;
 }
 
 .team .member .member-info p {
@@ -1476,7 +1479,8 @@ section {
   font-size: 14px;
   padding-top: 15px;
   line-height: 26px;
-  color: #5e5e5e;
+  color: #1f2823;
+  font-family: "Open Sans", sans-serif;
 }
 
 .team .member:hover {
