@@ -37,9 +37,9 @@ h1, h2, h3, h4, h5, h6 {
 # Sections
 --------------------------------------------------------------*/
 section {
-  padding: 60px 0;
+  padding: 50px 0;
   overflow: hidden;
-  background: #B4F4CA
+  background: #fff
 }
 
 .section-header {
@@ -176,11 +176,11 @@ section {
   transition: all 0.5s;
   z-index: 997;
   padding: 20px 0;
-  background: #B4F4CA;
+  background: #35bdc7;
 }
 
 .header.header-scrolled {
-  background: #B4F4CA;
+  background: #35bdc7;
   padding: 15px 0;
   box-shadow: 0px 2px 20px rgba(1, 41, 112, 0.1);
 }
@@ -195,10 +195,10 @@ section {
 }
 
 .header .logo span {
-  font-size: 30px;
+  font-size: 28px;
   font-weight: 700;
-  letter-spacing: 0,5px;
-  color: #1E1B3F;
+  letter-spacing: 0,4px;
+  color: #fff;
   font-family: "Nunito", sans-serif;
   margin-top: 3px;
 }
@@ -229,9 +229,9 @@ section {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10px 0 10px 30px;
+  padding: 10px 0 10px 20px;
   font-family: "Open Sans", sans-serif;
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 700;
   color: #1E1B3F;
   white-space: nowrap;
@@ -432,7 +432,7 @@ section {
 
 .hero {
   width: 100%;
-  height: 100vh;
+  height: 100%;
   background: url(../img/hero-bg.png) top center no-repeat;
   background-color: #35BDC7;
   background-size: cover;
@@ -484,6 +484,10 @@ section {
   text-align: right;
 }
 
+.hero .detalle {
+  padding: 0px;
+}
+
 @media (min-width: 1024px) {
 
 }
@@ -523,28 +527,29 @@ section {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
-.about .content {
-  background-color: #35BDC7;
+.about .content {;
   padding: 40px;
 }
 
 .about h3 {
   font-size: 14px;
   font-weight: 700;
-  color: #fff;
+  letter-spacing: 1px;
+  color: #1f2823;
   text-transform: uppercase;
 }
 
 .about h2 {
   font-size: 24px;
   font-weight: 700;
-  color: #fff;
+  color: #1f2823;
 }
 
 .about p {
-  margin: 15px 0 30px 0;
+  margin: 10px 0 30px 0;
   line-height: 24px;
-  color: #fff;
+  color: #1f2823;
+  font-weight: 600;
 }
 
 .about .btn-read-more {
@@ -552,7 +557,7 @@ section {
   padding: 15px 40px;
   border-radius: 4px;
   transition: 0.5s;
-  color: #fff;
+  color: #1f2823;
   background: #4154f1;
   box-shadow: 0px 5px 25px rgba(65, 84, 241, 0.3);
 }
@@ -605,6 +610,10 @@ section {
   transform: scale(1);
 }
 
+.values {
+  background: url(../img/values-bg.png) top center no-repeat;
+}
+
 /*--------------------------------------------------------------
 # Counts
 --------------------------------------------------------------*/
@@ -642,6 +651,10 @@ section {
   font-size: 14px;
 }
 
+.counts {
+  background-color: #fff;
+}
+
 /*--------------------------------------------------------------
 # Features
 --------------------------------------------------------------*/
@@ -649,7 +662,6 @@ section {
   padding: 24px 20px;
   transition: 0.3s;
   height: 100%;
-  background: #fff;
 }
 
 .features .feature-box h3 {
@@ -739,6 +751,7 @@ section {
 
 .features {
   background-color: #fff;
+  background: url(../img/features-bg.png) top center no-repeat;
 }
 
 @media (max-width: 768px) {
@@ -924,6 +937,37 @@ section {
 }
 
 /*--------------------------------------------------------------
+# Vacío
+--------------------------------------------------------------*/
+.vacio {
+  padding: 0 0 0 0;
+  background: #fff;
+}
+
+.vacio .img-fluid {
+  max-width: 120%;
+}
+
+.vacio2 {
+  padding: 0 0 0 0;
+  background: #fff;
+}
+
+.vacio2 .img-fluid {
+  max-width: 120%;
+}
+
+.vacio3 {
+  padding: 0 0 0 0;
+  background: #fff;
+}
+
+.vacio3 .img-fluid {
+  max-width: 120%;
+}
+
+
+/*--------------------------------------------------------------
 # Pricing
 --------------------------------------------------------------*/
 .pricing .box {
@@ -969,6 +1013,10 @@ section {
 
 .pricing img {
   padding: 30px 40px;
+}
+
+.pricing img .vacio {
+  padding: 0 0;
 }
 
 .pricing ul {
@@ -1022,6 +1070,11 @@ section {
   padding: 1px 0 3px 0;
   background: #35BDC7;
   color: #fff;
+}
+
+.pricing {
+  background: #b4f4ca;
+  padding-top: 40px;
 }
 
 /*--------------------------------------------------------------
@@ -1228,7 +1281,7 @@ section {
 }
 
 .portfolio {
-  background: white;
+  background: url(../img/portfolio-bg.png) top center no-repeat;
 }
 
 /*--------------------------------------------------------------
@@ -1401,7 +1454,6 @@ section {
   text-align: center;
   border-radius: 5px;
   background: #fff;
-  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
   transition: 0.3s;
 }
 
@@ -1411,7 +1463,6 @@ section {
 }
 
 .team .member .member-img:after {
-  position: absolute;
   content: "";
   left: 0;
   bottom: 0;
@@ -1481,7 +1532,6 @@ section {
 
 .team .member:hover {
   transform: scale(1.08);
-  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.1);
 }
 
 .team .member:hover .social {
@@ -1692,6 +1742,7 @@ section {
 }
 
 .contact {
+  background: url(../img/contact2-bg.png) top center no-repeat;
   background-color: #35BDC7;
 }
 
