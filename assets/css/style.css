@@ -14,7 +14,7 @@
 
 body {
   font-family: "Open Sans", sans-serif;
-  color: #444444;
+  color: #1e1b3f;
 }
 
 a {
@@ -53,7 +53,7 @@ section {
   letter-spacing: 1px;
   font-weight: 700;
   margin: 0;
-  color: #1F2823;
+  color: #1e1b3f;
   text-transform: uppercase;
 }
 
@@ -64,7 +64,7 @@ section {
   font-family: "Poppins";
   line-height: 42px;
   font-weight: 700;
-  color: #1F2823;
+  color: #1e1b3f;
 }
 
 @media (max-width: 768px) {
@@ -140,7 +140,7 @@ section {
   height: 40px;
   border-radius: 4px;
   transition: all 0.4s;
-  color: #1F2823;
+  color: #1e1b3f;
 }
 
 .back-to-top i {
@@ -535,20 +535,20 @@ section {
   font-size: 14px;
   font-weight: 700;
   letter-spacing: 1px;
-  color: #1f2823;
+  color: #1e1b3f;
   text-transform: uppercase;
 }
 
 .about h2 {
   font-size: 24px;
   font-weight: 700;
-  color: #1f2823;
+  color: #1e1b3f;
 }
 
 .about p {
   margin: 10px 0 30px 0;
   line-height: 24px;
-  color: #1f2823;
+  color: #1e1b3f;
   font-weight: 600;
 }
 
@@ -557,7 +557,7 @@ section {
   padding: 15px 40px;
   border-radius: 4px;
   transition: 0.5s;
-  color: #1f2823;
+  color: #1e1b3f;
   background: #4154f1;
   box-shadow: 0px 5px 25px rgba(65, 84, 241, 0.3);
 }
@@ -601,9 +601,13 @@ section {
 
 .values .box h3 {
   font-size: 24px;
-  color: #1F2823;
+  color: #1e1b3f;
   font-weight: 700;
   margin-bottom: 18px;
+}
+
+.values .box p {
+  color: #1e1b3f;
 }
 
 .values .box:hover img {
@@ -666,7 +670,7 @@ section {
 
 .features .feature-box h3 {
   font-size: 18px;
-  color: #1F2823;
+  color: #1e1b3f;
   font-weight: 700;
   margin: 0;
 }
@@ -994,7 +998,7 @@ section {
 
 .pricing .price {
   font-size: 36px;
-  color: #1B1D3F;
+  color: #35bdc7;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
 }
@@ -1031,7 +1035,7 @@ section {
 
 .pricing ul li {
   padding-bottom: 10px;
-  color: #1F2823;
+  color: #1e1b3f;
 }
 
 .pricing ul .na {
@@ -1509,7 +1513,7 @@ section {
   font-weight: 700;
   margin-bottom: 5px;
   font-size: 20px;
-  color: #1e1b3f;
+  color: #35bdc7;
   font-family: "Poppins", sans-serif;
 }
 
@@ -1517,16 +1521,17 @@ section {
   display: block;
   font-size: 14px;
   font-weight: 500;
-  color: #1f2823;
+  color: #1e1b3f;
   font-family: "Poppins", sans-serif;
 }
 
 .team .member .member-info p {
   font-style: italic;
   font-size: 14px;
+  font-weight: 400;
   padding-top: 15px;
   line-height: 26px;
-  color: #1f2823;
+  color: #1e1b3f;
   font-family: "Open Sans", sans-serif;
 }
 
@@ -1637,7 +1642,7 @@ section {
 --------------------------------------------------------------*/
 .contact .info-box {
   color: #444444;
-  background: #35BDC7;
+  background: #c2f2f2;
   padding: 30px;
 }
 
@@ -1663,7 +1668,7 @@ section {
 }
 
 .contact .php-email-form {
-  background: #35BDC7;
+  background: #c2f2f2;
   padding: 30px;
   height: 100%;
 }
@@ -1743,7 +1748,7 @@ section {
 
 .contact {
   background: url(../img/contact2-bg.png) top center no-repeat;
-  background-color: #35BDC7;
+  background-color: #c2f2f2;
 }
 
 @-webkit-keyframes animate-loading {
@@ -2274,7 +2279,7 @@ section {
 # Footer
 --------------------------------------------------------------*/
 .footer {
-  background: #1E1B3F;
+  background: #35bdc7;
   padding: 0 0 30px 0;
   font-size: 14px;
 }
@@ -2330,7 +2335,7 @@ section {
 }
 
 .footer .footer-top {
-  background: #1E1B3F url(../img/footer-bg.png) no-repeat right top;
+  background: #35bdc7 url(../img/foor-bg.png) no-repeat right top;
   background-size: contain;
   border-top: 1px solid #e1ecff;
   border-bottom: 1px solid #e1ecff;
@@ -2361,36 +2366,37 @@ section {
   font-size: 30px;
   font-weight: 700;
   letter-spacing: 1px;
-  color: #fff;
+  color: #1e1b3f;
   font-family: "Nunito", sans-serif;
   margin-top: 3px;
 }
 
 .footer .footer-top .footer-info p {
   font-size: 14px;
+  font-weight: 600;
   line-height: 24px;
   margin-bottom: 0;
   font-family: "Open Sans", sans-serif;
-  color: #fff;
+  color: #1e1b3f;
 }
 
 .footer .footer-top .social-links a {
   font-size: 20px;
   display: inline-block;
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(30, 27, 63, 0.5);
   line-height: 0;
   margin-right: 10px;
   transition: 0.3s;
 }
 
 .footer .footer-top .social-links a:hover {
-  color: #fff;
+  color: #1e1b3f;
 }
 
 .footer .footer-top h4 {
   font-size: 16px;
   font-weight: bold;
-  color: #fff;
+  color: #1e1b3f;
   text-transform: uppercase;
   position: relative;
   padding-bottom: 12px;
@@ -2408,7 +2414,7 @@ section {
 
 .footer .footer-top .footer-links ul i {
   padding-right: 2px;
-  color: #fff;
+  color: #1e1b3f;
   font-size: 12px;
   line-height: 0;
 }
@@ -2424,31 +2430,39 @@ section {
 }
 
 .footer .footer-top .footer-links ul a {
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(30, 27, 63, 0.7);
   transition: 0.3s;
   display: inline-block;
   line-height: 1;
 }
 
 .footer .footer-top .footer-links ul a:hover {
-  color: #fff;
+  color: #1e1b3f;
 }
 
 .footer .footer-top .footer-contact p {
   line-height: 26px;
-  color: #fff;
+  color: #1e1b3f;
 }
 
 .footer .copyright {
   text-align: center;
   padding-top: 30px;
-  color: #fff;
+  color: #1e1b3f;
 }
 
 .footer .credits {
   padding-top: 10px;
   text-align: center;
   font-size: 13px;
-  color: #fff;
+  color: #1e1b3f;
 
 }
+
+.footer .credits a {
+  padding-top: 10px;
+  text-align: center;
+  font-size: 13px;
+  font-weight: 700;
+  color: #1e1b3f;
+  }
