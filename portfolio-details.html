@@ -48,14 +48,18 @@
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="nav-link scrollto active" href="index.html">Inicio</a></li>
+          <li><a class="nav-link scrollto active" href="#index.html">Inicio</a></li>
           <li><a class="nav-link scrollto" href="#values">Como funciona</a></li>
-          <li><a class="nav-link scrollto" href="#features">Porque nos eligen</a></li>
+          <li class="dropdown"><a href="#about"><span>Conocenos</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="#about">Que es Craft Kids Club</a></li>
+              <li><a href="#features">Porque nos eligen</a></li>
+              <li><a href="#team">Nuestro Equipo</a></li>
+              <li><a href="#portfolio">Clientes felices</a></li>
+            </ul>
           <li><a class="nav-link scrollto" href="#pricing">Unite al club</a></li>
-          <li><a class="nav-link scrollto" href="#about">Conocenos</a></li>
-          <li><a class="nav-link scrollto" href="#team">Nuestro Equipo</a></li>
-          <li><a class="nav-link scrollto" href="#portfolio">Experiencias</a></li>
-          <li><a class="getstarted scrollto" href="#about">Quiero mi caja</a></li>
+          <li><a class="nav-link scrollto" href="#contact">Contacto</a></li>
+          <li><a class="getstarted scrollto" href="portfolio-details.html">Quiero mi caja</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -69,7 +73,7 @@
 
         <ol>
           <li><a href="index.html">Inicio</a></li>
-          <li>Detalle de suscripción</li>
+          <li>Suscripción única</li>
         </ol>
 
       </div>
@@ -84,34 +88,34 @@
           <img src="assets/img/hero-detalle.png" class="img-fluid" alt="">
         </div>
         <div class="col-lg-6 flex-column justify-content-center detalle">
-          <h1 data-aos="fade-up">Suscripción por 6 meses</h1>
-          <h2 data-aos="fade-up" data-aos-delay="400">$1000/mes|Producto destacado</h2>
+          <h1 data-aos="fade-up">Suscripción por única vez</h1>
+          <h2 data-aos="fade-up" data-aos-delay="200">$1200 | Sólo una caja</h2>
               
-              <div class="col-md-9" data-aos="zoom-out" data-aos-delay="200">
+              <div class="col-md-9" data-aos="fade-up" data-aos-delay="200">
                 <div class="feature-box d-flex align-items-center">
-                  <h4>Si no te decidís por una suscripción más larga probá comprando solo una caja para decidir si te quedás en el club. ¡No te vas a arrepentir!</h4>
+                  <h4>Si no te decidís por una suscripción más larga probá comprando sólo una caja para decidir si te quedás en el club. ¡No te vas a arrepentir!</h4>
                 </div>
               </div>
 
-              <div class="col-md-6" data-aos="zoom-out" data-aos-delay="200">
+              <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
                 <div class="feature-box d-flex align-items-center">
                   <h3>Incluye:</h3>
                 </div>
               </div>
 
-              <div class="col-md-6" data-aos="zoom-out" data-aos-delay="200">
+              <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
                 <div class="feature-box d-flex align-items-center">
-                  <h3>Set de manualidades</h3>
+                  <h3>Set de materiales</h3>
                 </div>
               </div>
 
-              <div class="col-md-7" data-aos="zoom-out" data-aos-delay="200">
+              <div class="col-md-7" data-aos="fade-up" data-aos-delay="200">
                 <div class="feature-box d-flex align-items-center">
                   <h3>Manual de instrucciones</h3>
                 </div>
               </div>
 
-              <div class="col-md-7" data-aos="zoom-out" data-aos-delay="200">
+              <div class="col-md-7" data-aos="fade-up" data-aos-delay="200">
                 <div class="feature-box d-flex align-items-center">
                   <h3>Calendario de actividades</h3>
                 </div>
@@ -137,6 +141,58 @@
     <section id="vacio3" class="vacio3">
       <img src="assets/img/contact3-bg.png" class="img-fluid" alt="">
     </section><!-- End Section Vacía -->
+
+
+    <!-- ======= Counts Section =======!-->
+    <section id="counts" class="counts">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-3 col-md-6">
+            <div class="count-box">
+              <img src="assets/img/credito.png" class="img-fluid imagen-pago" alt="">
+              <div>
+                <h5>Tarjeta de crédito</h5>
+                <a href="#">Ver promociones</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="count-box">
+              <img src="assets/img/debito.png" class="img-fluid imagen-pago" alt="">
+              <div>
+                <h5>Tarjeta de débito</h5>
+                <a href="#">Ver promociones</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="count-box">
+              <img src="assets/img/mercado.png" class="img-fluid imagen-pago" alt="">
+              <div>
+                <h5>Mercado Pago</h5>
+                <a href="#">Ver más</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="count-box">
+              <img src="assets/img/pago.png" class="img-fluid imagen-pago" alt="">
+              <div>
+                <h5>Efectivo</h5>
+                <a href="#">Ver sucursal</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Counts Section -->
 
 
     <!-- ======= Values Section ======= -->
@@ -190,7 +246,61 @@
     </section><!-- End Section Vacía -->
 
 
-    <!-- ======= Features Section ======= -->
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+
+      <div class="container" data-aos="fade-up">
+        <div class="row gx-0">
+          <div class="col-lg-6 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
+            <img src="assets/img/features-detalle.png" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
+            <div class="content">
+              <h3>Pensando en nuestra comunidad</h3>
+              <h2>Agregamos a cada una de nuestras box algunos materiales extra.</h2>
+              <p>
+                Para seguir motivando el desarrollo de los más pequeños de nuestra comunidad decidimos incluir en nuestras box materiales exclusivos de nuestros patrocinadores.
+              </p>
+              <!--<div class="text-center text-lg-start">
+                <a href="#" class="btn-read-more d-inline-flex align-items-center justify-content-center align-self-center">
+                  <span>Read More</span>
+                  <i class="bi bi-arrow-right"></i>
+                </a>
+              </div>!-->
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </section><!-- End About Section -->
+
+
+    <!-- ======= Clients Section ======= -->
+    <section id="clients" class="clients">
+
+      <div class="container" data-aos="fade-up">
+
+
+        <div class="clients-slider swiper-container">
+          <div class="swiper-wrapper align-items-center">
+            <div class="swiper-slide"><img src="assets/img/clients/client-1.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-2.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-3.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-4.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-5.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-6.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-7.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-8.png" class="img-fluid" alt=""></div>
+          </div>
+        </div>
+      </div>
+
+    </section><!-- End Clients Section -->
+
+
+    <!-- ======= Features Section =======
     <section id="features" class="features">
 
       <div class="container" data-aos="fade-up">
@@ -245,7 +355,7 @@
     </section>
 
 
-    <!-- ======= Pricing Section ======= -->
+    <!-- ======= Pricing Section =======
     <section id="medios" class="medios">
 
       <div class="container" data-aos="fade-up">
@@ -260,28 +370,28 @@
           <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="100">
             <div class="box">
               <img src="assets/img/credito.png" class="img-fluid" alt="">
-              <h3 style="color: #1f2823;">TARJETA DE CRÉDITO</h3>
+              <h3 style="color: #1e1b3f;">TARJETA DE CRÉDITO</h3>
             </div>
           </div>
 
           <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="100">
             <div class="box">
               <img src="assets/img/debito.png" class="img-fluid" alt="">
-              <h3 style="color: #1f2823;">TARJETA DE DÉBITO</h3>
+              <h3 style="color: #1e1b3f;">TARJETA DE DÉBITO</h3>
             </div>
           </div>
 
           <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="100">
             <div class="box">
               <img src="assets/img/mercado.png" class="img-fluid" alt="">
-              <h3 style="color: #1f2823;">MERCADO PAGO</h3>
+              <h3 style="color: #1e1b3f;">MERCADO PAGO</h3>
             </div>
           </div>
 
           <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="100">
             <div class="box">
               <img src="assets/img/pago.png" class="img-fluid" alt="">
-              <h3 style="color: #1f2823;">PAGO FÁCIL</h3>
+              <h3 style="color: #1e1b3f;">PAGO FÁCIL</h3>
             </div>
           </div>
 
@@ -298,8 +408,8 @@
       <div class="container" data-aos="fade-up">
 
         <header class="section-header">
-          <h2>Unite al club</h2>
-          <p>¿Cuál querés?</p>
+          <h2>Otras opciones</h2>
+          <p>No te lo pierdas</p>
         </header>
 
         <div class="row gy-2 justify-content-center" data-aos="fade-left">
@@ -339,32 +449,6 @@
 
     </section><!-- End Pricing Section -->
 
-    <!-- ======= Clients Section ======= -->
-    <section id="clients" class="clients">
-
-      <div class="container" data-aos="fade-up">
-
-        <header class="section-header">
-          <h2>Nuestra compañia</h2>
-          <p>Para armar cada box</p>
-        </header>
-
-        <div class="clients-slider swiper-container">
-          <div class="swiper-wrapper align-items-center">
-            <div class="swiper-slide"><img src="assets/img/clients/client-1.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-2.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-3.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-4.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-5.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-6.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-7.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-8.png" class="img-fluid" alt=""></div>
-          </div>
-          <div class="swiper-pagination"></div>
-        </div>
-      </div>
-
-    </section><!-- End Clients Section -->
 
   <main id="main">
     <!-- ======= About Section =======
@@ -556,52 +640,6 @@
 
         </div><!-- End Feature Tabs -->
 
-    <!-- ======= Counts Section =======
-    <section id="counts" class="counts">
-      <div class="container" data-aos="fade-up">
-
-        <div class="row gy-4">
-
-          <div class="col-lg-3 col-md-6">
-            <div class="count-box">
-              <i class="bi bi-truck"></i>
-              <div>
-                <h4>ENVÍO GRATIS</h4>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6">
-            <div class="count-box">
-              <i class="bi bi-box-seam" style="color: #ee6c20;"></i>
-              <div>
-                <h4>ENVÍO SEGURO</h4>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6">
-            <div class="count-box">
-              <i class="bi bi-arrow-counterclockwise" style="color: #15be56;"></i>
-              <div>
-                <h4>DEVOLUCIÓN GRATIS</h4>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6">
-            <div class="count-box">
-              <i class="bi bi-gift" style="color: #bb0852;"></i>
-              <div>
-                <h4>INCREÍBLES DESCUENTOS</h4>
-              </div>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </section><!-- End Counts Section -->
 
         <!-- Feature Icons
         <div class="row feature-icons" data-aos="fade-up">
