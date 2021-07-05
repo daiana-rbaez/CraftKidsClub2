@@ -53,7 +53,7 @@ section {
   letter-spacing: 1px;
   font-weight: 700;
   margin: 0;
-  color: #1F2823;
+  color: #1e1b3f;
   text-transform: uppercase;
 }
 
@@ -64,7 +64,7 @@ section {
   font-family: "Poppins";
   line-height: 42px;
   font-weight: 700;
-  color: #1F2823;
+  color: #1e1b3f;
 }
 
 @media (max-width: 768px) {
@@ -78,10 +78,11 @@ section {
 # Breadcrumbs
 --------------------------------------------------------------*/
 .breadcrumbs {
-  background: #35bdc7;
+  padding: 20px;
+  background: #c2f2f2;
   min-height: 40px;
   margin-top: 55px;
-  color: #fff;
+  color: #1e1b3f;
 }
 
 
@@ -101,7 +102,7 @@ section {
 }
 
 .breadcrumbs ol a {
-  color: #fff;
+  color: #1e1b3f;
   transition: 0.3s;
 }
 
@@ -116,7 +117,7 @@ section {
 .breadcrumbs ol li + li::before {
   display: inline-block;
   padding-right: 10px;
-  color: #fff;
+  color: #1e1b3f;
   content: "/";
 }
 
@@ -176,7 +177,7 @@ section {
 
 .header.header-scrolled {
   background: #35bdc7;
-  padding: 10px 0;
+  padding: 15px 0;
   box-shadow: 0px 2px 20px rgba(1, 41, 112, 0.1);
 }
 
@@ -190,10 +191,10 @@ section {
 }
 
 .header .logo span {
-  font-size: 25px;
+  font-size: 28px;
   font-weight: 700;
-  letter-spacing: 0,2px;
-  color: #1E1B3F;
+  letter-spacing: 0,4px;
+  color: #fff;
   font-family: "Nunito", sans-serif;
   margin-top: 3px;
 }
@@ -224,9 +225,9 @@ section {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 6px 0 6px 17px;
+  padding: 10px 0 10px 20px;
   font-family: "Open Sans", sans-serif;
-  font-size: 14px;
+  font-size: 15px;
   font-weight: 700;
   color: #1E1B3F;
   white-space: nowrap;
@@ -288,7 +289,7 @@ section {
 }
 
 .navbar .dropdown ul a:hover, .navbar .dropdown ul .active:hover, .navbar .dropdown ul li:hover > a {
-  color: #4154f1;
+  color: #F7512A;
 }
 
 .navbar .dropdown:hover > ul {
@@ -370,7 +371,7 @@ section {
   left: 15px;
   padding: 10px 0;
   border-radius: 10px;
-  background-color: #B4F4CA;
+  background-color: #fff;
   overflow-y: auto;
   transition: 0.3s;
 }
@@ -427,9 +428,9 @@ section {
 
 .hero {
   width: 100%;
-  height: 100vh;
+  height: 100%;
   background: url(../img/detle-bg.png) top center no-repeat;
-  background-color: #35bdc7;
+  background-color: #c2f2f2;
   background-size: cover;
 }
 
@@ -437,11 +438,11 @@ section {
   margin: 0;
   font-size: 30px;
   font-weight: 700;
-  color: #fff;
+  color: #35bdc7;
 }
 
 .hero h2 {
-  color: #fff;
+  color: #1e1b3f;
   margin: 10px 0 0 0;
   font-size: 22px;
   font-weight: 700;
@@ -513,8 +514,8 @@ section {
   text-align: right;
 }
 
-.hero .detalle {
-  padding: 30px;
+.hero {
+  padding-top: 25px;
 }
 
 @media (min-width: 1024px) {
@@ -524,8 +525,8 @@ section {
 @media (max-width: 991px) {
   .hero {
     height: auto;
-    padding: 100px 0 60px 0;
     text-align: left;
+    padding-top: 1;
   }
   .hero .hero-img {
     text-align: center;
@@ -538,7 +539,7 @@ section {
 
 @media (max-width: 768px) {
   .hero {
-    text-align: center;
+    text-align: left;
   }
   .hero h1 {
     font-size: 32px;
@@ -558,27 +559,28 @@ section {
 # About
 --------------------------------------------------------------*/
 .about .content {
-  background-color: #35BDC7;
   padding: 40px;
 }
 
 .about h3 {
   font-size: 14px;
   font-weight: 700;
-  color: #fff;
+  letter-spacing: 1px;
+  color: #1e1b3f;
   text-transform: uppercase;
 }
 
 .about h2 {
   font-size: 24px;
   font-weight: 700;
-  color: #fff;
+  color: #1e1b3f;
 }
 
 .about p {
-  margin: 15px 0 30px 0;
+  margin: 10px 0 30px 0;
   line-height: 24px;
-  color: #fff;
+  color: #1e1b3f;
+  font-weight: 600;
 }
 
 .about .btn-read-more {
@@ -586,7 +588,7 @@ section {
   padding: 15px 40px;
   border-radius: 4px;
   transition: 0.5s;
-  color: #fff;
+  color: #1e1b3f;
   background: #4154f1;
   box-shadow: 0px 5px 25px rgba(65, 84, 241, 0.3);
 }
@@ -623,20 +625,20 @@ section {
 }
 
 .values .box img {
-  padding: 30px 50px;
+  padding: 5px 0px;
   transition: 0.5s;
   transform: scale(1.1);
 }
 
 .values .box h3 {
   font-size: 24px;
-  color: #1F2823;
+  color: #1e1b3f;
   font-weight: 700;
   margin-bottom: 18px;
 }
 
 .values .box p {
-  color: #1F2823;
+  color: #1e1b3f;
 }
 
 .values .box:hover img {
@@ -648,11 +650,18 @@ section {
   padding: 60px;
 }
 
+
+@media (max-width: 991px) {
+  .values {
+    padding: 0px;
+  }
+}
+
 /*--------------------------------------------------------------
 # Counts
 --------------------------------------------------------------*/
 .counts {
-  padding: 70px 0 60px;
+  padding: 30px 0 60px;
 }
 
 .counts .count-box {
@@ -683,6 +692,22 @@ section {
   margin: 0;
   font-family: "Nunito", sans-serif;
   font-size: 14px;
+  color: #1e1b3f;
+}
+
+.counts .count-box h5 {
+  color: #1e1b3f;
+  font-size: 15px;
+  margin: 0 0 0 0;
+}
+
+.counts .count-box a {
+  font-size: 14px;
+}
+
+.counts .count-box a:hover {
+  font-size: 14px;
+  color: #f7512a;
 }
 
 .counts {
@@ -1032,7 +1057,7 @@ section {
 
 .pricing ul li {
   padding-bottom: 10px;
-  color: #1F2823;
+  color: #1e1b3f;
 }
 
 .pricing ul .na {
@@ -1498,19 +1523,19 @@ section {
   font-size: 18px;
   font-weight: bold;
   margin: 10px 0 5px 0;
-  color: #1F2823;
+  color: #35bdc7;
 }
 
 .testimonials .testimonial-item h4 {
   font-size: 14px;
-  color: #999;
+  color: #1e1b3f;
   margin: 0;
 }
 
 .testimonials .testimonial-item p {
   font-style: italic;
   margin: 0 auto 15px auto;
-  color: #1F2823;
+  color: #1e1b3f;
 }
 
 .testimonials .swiper-pagination {
@@ -1683,6 +1708,10 @@ section {
 
 .clients .clients-slider .swiper-pagination .swiper-pagination-bullet-active {
   background-color: #1F2823;
+}
+
+.clients {
+  padding-top: 15px;
 }
 
 /*--------------------------------------------------------------
@@ -2517,6 +2546,7 @@ section {
 
 .footer .footer-top .footer-info p {
   font-size: 14px;
+  font-weight: 600;
   line-height: 24px;
   margin-bottom: 0;
   font-family: "Open Sans", sans-serif;
@@ -2573,7 +2603,8 @@ section {
 }
 
 .footer .footer-top .footer-links ul a {
-  color: rgba(30, 27, 63, 0.7);
+  color: rgba(30, 27, 63, 1);
+  font-weight: 600;
   transition: 0.3s;
   display: inline-block;
   line-height: 1;
@@ -2585,6 +2616,7 @@ section {
 
 .footer .footer-top .footer-contact p {
   line-height: 26px;
+  font-weight: 600;
   color: #1e1b3f;
 }
 
